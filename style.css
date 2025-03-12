@@ -1,0 +1,191 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ body {
+  background-color: #1b1818; 
+  text-align: center; 
+ }
+ 
+ /* STYLE TEXT */
+ 
+ h1 {
+   color: white;
+   font-family: "Copperplate", fantasy; 
+   font-size: 115px; 
+   font-weight: 595;  
+   letter-spacing: 2px; 
+   padding-top:50px; 
+   padding-bottom: 0px; 
+   padding-left: 100px; 
+   padding-right: 100px; 
+ }
+ 
+ h2{
+   color:white; 
+   font-family: "Copperplate", fantasy; 
+   font-size: 80px;
+   font-weight: 300; 
+   padding-top: 40px; 
+   
+ }
+ 
+ h3{
+   color:white; 
+   font-family: "Courier New", monospace;
+   font-size: 20px; 
+   padding: 30px; 
+   
+ }
+ 
+ h4{
+   color: white; 
+   font-family:"Courier New", monospace; 
+   font-size: 22px;  
+   font-weight: bold; 
+ }
+ 
+ h5{
+   color: white; 
+   font-family: "Courier New", monospace;
+   font-size: 18px; 
+   padding-left: 20px; 
+   padding-right:20px; 
+ }
+ 
+ p{
+   font-family: "Courier New", monospace; 
+   color: white; 
+   padding-bottom: 50px; 
+   padding-top: 20px; 
+   padding-right: 20px; 
+   padding-left: 20px; 
+ }
+ 
+ a {
+  font-family: "Courier New", monospace; 
+   color: #D2E59E;
+   padding-right: 20px; 
+   padding-left: 20px; 
+   padding bottom: 30px; 
+ }
+ /* STYLE IMAGES */
+ 
+ #chinese {
+   max-height: 250px;
+ }
+ 
+ #korea {
+   max-height: 250px;
+ }
+ 
+ 
+ #tagalog{
+   max-height: 250px;
+ }
+ 
+ #viet {
+   max-height: 250px;
+ }
+ 
+ #atlantaSpa {
+   max-height: 500px; 
+ }
+ 
+ #dallasShooting {
+   max-height: 250px; 
+ }
+ 
+ #chinatownStabbing {
+   max-height: 250px; 
+ }
+ 
+ #subway {
+   max-height: 250px; 
+ }
+ /* STYLE NAV BAR */
+ ul {
+   list-style-type: none;
+   padding: 1em;
+   background-color: #1b1818;
+   overflow: hidden;
+ }
+ 
+ li {
+   display: inline;
+ }
+ 
+ li a {    /* Style hyperlink text in nav bar */
+   color: white;
+   text-decoration: none;
+   padding: 1em;
+   font-size: 1.3em;
+   font-family: "Courier New", monospace; 
+   font-weight: bold; 
+ }
+ 
+ li a:hover {
+   background-color: D2E59E;
+ }
+ 
+ 
+ /* STYLE BUTTONS */
+ #scriptBtn {
+   background: #2a2b27; 
+   border-style: none;
+ 
+   padding: 10px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   margin-left: 35%;
+   margin-right: 35%;
+ 
+   color: white;
+   font-size: 1em;
+   font-family: "Courier New", monospace;
+   font-weight: bold;
+ }
+ 
+ /* ADD MORE! */
+ /* STYLE PERSONALIZE IT KEY FEATURE  */
+ 
+ .scriptQues {
+   background: #D2E59E; 
+ 
+   margin-top: 5%;
+   margin-left: 15%;
+   margin-right: 15%;
+   font-family: "Courier New", monospace;
+   font-size: 0.9em;
+   color:black;
+   font-weight: bold; 
+ }
+ 
+ .scriptItem{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 15px;
+   margin-right: 10px;
+ 
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+ 
+   font-color: white; 
+ 
+ }
+ 
+ input {
+   border-style: none;
+   width: 60%;
+ }
+ 
+ #scriptReturned {
+   margin-top: 5%;
+   margin-left: 15%;
+   margin-right: 15%;
+ 
+   font-color: #FFFFFF;
+ }
