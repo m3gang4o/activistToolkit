@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Body Styling */
 body {
     background-color: #1b1818;
     text-align: center;
@@ -15,37 +16,17 @@ body {
     min-height: 100vh;
 }
 
-/* Style headings */
-h1 {
-    color: white;
-    font-family: "Copperplate", fantasy;
-    font-size: 50px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    padding: 20px;
+/* Style Navigation Bar */
+nav {
+    background-color: #1b1818;
+    padding: 15px 0;
 }
 
-h2, h3, h4, h5 {
-    color: white;
-    font-family: "Courier New", monospace;
-    margin-top: 20px;
-}
-
-p {
-    color: white;
-    padding: 20px;
-    max-width: 80%;
-    line-height: 1.6;
-}
-
-/* Style navigation bar */
 nav ul {
     list-style-type: none;
-    background-color: #1b1818;
-    padding: 1em;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 nav ul li {
@@ -54,72 +35,131 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    font-size: 1.3em;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
+    font-family: "Copperplate", fantasy;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: #D2E59E;
 }
 
-/* Adjust image container */
+/* Page Title */
+h1 {
+    color: white;
+    font-family: "Copperplate", fantasy;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+/* Headings */
+h2, h3, h4, h5 {
+    color: white;
+    margin-top: 10px;
+}
+
+/* Paragraph Styling */
+p {
+    color: white;
+    font-size: 18px;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Image Container */
 .image-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 30px;
-    max-width: 90%;
+    gap: 15px;
+    margin-top: 30px;
 }
 
-/* Ensure consistent image sizes */
 .image-container img {
-    width: 300px;  /* Increased width for better visibility */
+    max-width: 250px;
     height: auto;
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 5px;
 }
 
-/* Center content and remove bottom space */
-.main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
-
-/* --- Fix for Resources Page Images Being Too Large --- */
-.resources-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 20px;
-    max-width: 90%;
-    margin: auto;
-}
-
+/* Specific Image Fix for Resource Page */
 .resources-container img {
-    max-width: 60%; /* Limits image width to avoid oversized images */
+    max-width: 600px;
+    width: 100%;
     height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Take Action Form Styling */
+.script-container {
+    background: #D2E59E;
+    padding: 30px;
     border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
 }
 
-/* Fix text alignment under images */
-.resources-container p {
-    max-width: 80%;
-    text-align: center;
-    font-size: 1.1em;
-    line-height: 1.5;
+.script-item {
+    text-align: left;
+    margin-bottom: 15px;
 }
 
-/* Reduce bottom black space */
-footer {
-    margin-top: auto;
-    padding: 20px;
+.script-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.script-item input, 
+.script-item textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+/* Fix Input Box Styling */
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Fix Button Alignment */
+#scriptBtn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #2a2b27;
     color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+#scriptBtn:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
     text-align: center;
 }
